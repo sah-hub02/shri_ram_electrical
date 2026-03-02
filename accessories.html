@@ -1,0 +1,308 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shri Ram Electrics</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body class="bg-gradient-to-r font-mono  from-gray-100 via-white to-gray-100 overflow-x-hidden">
+    <header>
+        <!--  NAVBAR  -->
+        <nav class="bg-gradient-to-r from-blue-950 to-blue-800 text-white shadow-xl sticky top-0 z-50">
+            <div class="max-w-screen-2xl mx-auto px-6 flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="./img/logo.png" alt="Shri Ram Electrics Logo" class="w-32 md:w-36 object-contain" />
+                </div>
+
+                <div class="hidden md:flex space-x-10 font-semibold text-lg lg:text-xl items-center">
+                    <a href="index.html" class="hover:text-orange-400 transition"><i class="fa-solid fa-house"></i>
+                        Home</a>
+                    <a href="repairing.html" class="hover:text-orange-400 transition"><i
+                            class="fa-solid fa-screwdriver-wrench"></i> Repairing</a>
+                    <a href="accessories.html" class="hover:text-orange-400 text-orange-400 transition"><i
+                            class="fa-solid fa-plug"></i> Accessories</a>
+                    <a href="review.html" class="hover:text-orange-400 transition"><i class="fa-solid fa-star"></i>
+                        Reviews</a>
+                    <a href="contact.html" class="hover:text-orange-400 transition"><i class="fa-solid fa-phone"></i>
+                        Contact</a>
+                </div>
+
+                <button id="menuBtn" class="md:hidden text-3xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden bg-blue-900 px-4 pb-4 text-center text-lg font-medium">
+                <a href="index.html" class="block py-3 border-b border-blue-700"><i class="fa-solid fa-house"></i>
+                    Home</a>
+                <a href="repairing.html" class="block py-3 border-b border-blue-700"><i
+                        class="fa-solid fa-screwdriver-wrench"></i> Repairing</a>
+                <a href="accessories.html" class="block py-3 border-b border-blue-700 text-orange-400"><i
+                        class="fa-solid fa-plug"></i> Accessories</a>
+                <a href="review.html" class="block py-3 border-b border-blue-700"><i class="fa-solid fa-star"></i>
+                    Reviews</a>
+                <a href="contact.html" class="block py-3"><i class="fa-solid fa-phone"></i> Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="relative min-h-[60vh] flex items-center justify-center text-center text-white">
+            <div class="absolute inset-0">
+                <img src="./img/ass-banner.jpeg" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-r from-black/80 to-blue-900/70"></div>
+            </div>
+
+            <div class="relative z-10 px-4">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 font-serif">
+                    Electrical Accessories & Products
+                </h1>
+                <p class="text-lg text-gray-200 max-w-2xl mx-auto ">
+                    All types of electrical items available at best price in Bargarh
+                </p>
+            </div>
+        </section>
+
+        <!-- PRODUCT CATEGORIES -->
+        <section class="py-16 max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-950 mb-12">
+                Available Accessories
+            </h2>
+
+            <!-- Gallery Grid -->
+            <div id="accessoriesGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Initial 8 Items -->
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/a.jpeg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/x.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/c.jpeg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/v.jpg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/d.jpeg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/g.jpeg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/w.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/i.jpeg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/aa.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/bb.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/cc.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/ee.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/ff.webp" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/gg.jpg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/hh.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/ii.jpg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/r.jpeg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/jj.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/kk.jpg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+                <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+                    <img src="./img/s.webp" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                </div>
+
+            </div>
+
+            <!-- More/Less Buttons -->
+            <div class="text-center mt-8">
+                <button id="loadMoreBtn"
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition duration-300">
+                    More
+                </button>
+                <button id="loadLessBtn"
+                    class="bg-gray-500 hover:bg-gray-600 text-white font-semibold px-6 py-3 rounded-full transition duration-300 ml-4 hidden">
+                    Less
+                </button>
+            </div>
+        </section>
+
+
+        <!-- WHY BUY FROM US -->
+        <section class="py-16 bg-blue-900 text-white">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold mb-12">
+                    Why Buy From Shri Ram Electrics?
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div data-aos="zoom-in">
+                        <i class="fa-solid fa-check-circle text-4xl text-orange-400 mb-4"></i>
+                        <h3 class="text-xl font-semibold">Original Products</h3>
+                        <p class="mt-3 text-gray-200">
+                            100% genuine and branded products.
+                        </p>
+                    </div>
+
+                    <div data-aos="zoom-in">
+                        <i class="fa-solid fa-indian-rupee-sign text-4xl text-orange-400 mb-4"></i>
+                        <h4 class="text-xl font-semibold">Best Price</h3>
+                            <p class="mt-3 text-gray-200">
+                                Affordable rates in Bargarh area.
+                            </p>
+                    </div>
+
+                    <div data-aos="zoom-in">
+                        <i class="fa-solid fa-headset text-4xl text-orange-400 mb-4"></i>
+                        <h5 class="text-xl font-semibold">Customer Support</h5>
+                        <p class="mt-3 text-gray-200">
+                            Friendly service & product guidance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION -->
+        <section class="py-16 text-center bg-gray-100">
+            <h2 class="text-3xl font-bold text-blue-950 mb-6">
+                Need Electrical Accessories?
+            </h2>
+
+            <a href="https://wa.me/91000000000"
+                class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition shadow-xl">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+        </section>
+    </main>
+
+    <!--  FOOTER  -->
+    <footer class="bg-blue-950 text-white py-14">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div>
+                <span class="text-2xl font-bold text-orange-400">
+                    <a href="index.html"><i class="fa-solid fa-bolt"></i> Shri Ram Electrics</a>
+                </span>
+                <p class="mt-3 text-gray-300">
+                    Complete Electrical Repair & Sales Shop.
+                </p>
+            </div>
+
+            <div>
+                <span class="font-bold text-xl mb-3 block text-orange-400">Quick Links</span>
+                <ul class="space-y-2 text-gray-300">
+                    <li>
+                        <a href="index.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-angle-right"></i> Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-angle-right"></i> Repairing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="accessories.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-angle-right"></i> Accessories
+                        </a>
+                    </li>
+                    <li>
+                        <a href="review.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-angle-right"></i> Reviews
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <span class="font-bold text-xl mb-3 block text-orange-400">Services</span>
+                <ul class="space-y-2 text-gray-300">
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-check"></i> Motor Repair
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-check"></i> Fan Repair
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-check"></i> Water Pump
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-check"></i> Generator Service
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold block text-xl mb-3 text-orange-400">Contact</h4>
+                <p class="text-gray-300">
+                    <i class="fa-solid fa-location-dot"></i> Bargarh, Odisha
+                </p>
+                <p class="text-gray-300 mt-2">
+                    <i class="fa-solid fa-phone"></i> 91 00000000
+                </p>
+            </div>
+        </div>
+
+        <div class="text-center mt-10 border-t border-blue-800 pt-6 text-gray-400">
+            <a href="index.html"> © 2026 Shri Ram Electrics. </a>All Rights
+            Reserved.
+        </div>
+    </footer>
+
+    <!--  PREMIUM WHATSAPP BUTTON  -->
+    <div class="max-w-screen-2xl mx-auto relative">
+        <a href="https://wa.me/91000000000" target="_blank"
+            class="fixed bottom-4 right-4 sm:bottom-6 sm:right-10 lg:right-20 bg-green-500 hover:bg-green-600 text-white flex items-center gap-2 px-4 py-3 sm:px-5 sm:py-3 rounded-full shadow-2xl text-sm sm:text-base transition duration-300 hover:scale-105 animate-bounce z-50">
+            <i class="fa-brands fa-whatsapp text-lg sm:text-xl"></i>
+            <span class="hidden sm:inline font-semibold">Chat Now</span>
+        </a>
+    </div>
+
+    <script src="./js/script.js"></script>
+
+    <script src="./js/ass.js"></script>
+</body>
+
+</html>

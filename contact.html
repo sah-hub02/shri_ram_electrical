@@ -1,0 +1,245 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shri Ram Electrics</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body class="bg-gradient-to-r font-mono from-gray-100 via-white to-gray-100 overflow-x-hidden">
+    <header>
+        <!--  NAVBAR  -->
+        <nav class="bg-gradient-to-r from-blue-950 to-blue-800 text-white shadow-xl sticky top-0 z-50">
+            <div class="max-w-screen-2xl mx-auto px-6 flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="./img/logo.png" alt="Shri Ram Electrics Logo" class="w-32 md:w-36 object-contain" />
+                </div>
+
+                <div class="hidden md:flex space-x-10 font-semibold text-lg lg:text-xl items-center">
+                    <a href="index.html" class="hover:text-orange-400 transition"><i class="fa-solid fa-house"></i>
+                        Home</a>
+                    <a href="repairing.html" class="hover:text-orange-400 transition"><i
+                            class="fa-solid fa-screwdriver-wrench"></i> Repairing</a>
+                    <a href="accessories.html" class="hover:text-orange-400 transition"><i class="fa-solid fa-plug"></i>
+                        Accessories</a>
+                    <a href="review.html" class="hover:text-orange-400 transition"><i class="fa-solid fa-star"></i>
+                        Reviews</a>
+                    <a href="contact.html" class="hover:text-orange-400 text-orange-400 transition"><i
+                            class="fa-solid fa-phone"></i> Contact</a>
+                </div>
+
+                <button id="menuBtn" class="md:hidden text-3xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden bg-blue-900 px-4 pb-4 text-center text-lg font-medium">
+                <a href="index.html" class="block py-3 border-b border-blue-700"><i class="fa-solid fa-house"></i>
+                    Home</a>
+                <a href="repairing.html" class="block py-3 border-b border-blue-700"><i
+                        class="fa-solid fa-screwdriver-wrench"></i> Repairing</a>
+                <a href="accessories.html" class="block py-3 border-b border-blue-700"><i class="fa-solid fa-plug"></i>
+                    Accessories</a>
+                <a href="review.html" class="block py-3 border-b border-blue-700"><i class="fa-solid fa-star"></i>
+                    Reviews</a>
+                <a href="contact.html" class="block py-3 text-orange-400"><i class="fa-solid fa-phone"></i> Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="relative min-h-[50vh] flex items-center justify-center text-center text-white">
+            <div class="absolute inset-0">
+                <img src="./img/con-banner.jpeg" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-r from-black/80 to-blue-900/70"></div>
+            </div>
+
+            <div class="relative z-10 px-4">
+                <h1 class="text-4xl md:text-5xl font-serif font-bold">Contact Us</h1>
+                <p class="mt-4 text-lg text-gray-200">We are here to help you</p>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="py-16 max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-10">
+                <!-- CONTACT INFO -->
+                <div data-aos="fade-right">
+                    <h2 class="text-3xl font-bold text-blue-950 mb-6">
+                        Shri Ram Electrics
+                    </h2>
+
+                    <div class="space-y-4 text-gray-700 text-lg">
+                        <p>
+                            <i class="fa-solid fa-location-dot text-orange-500"></i>
+                            Bargarh, Odisha
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-phone text-orange-500"></i>
+                            +91 0000000000
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-envelope text-orange-500"></i>
+                            info@shriramelectrics.com
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-clock text-orange-500"></i>
+                            Mon - Sat : 9:00 AM - 8:00 PM
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-clock text-orange-500"></i>
+                            Sun : 9:00 AM - 2:00 PM
+                        </p>
+                    </div>
+
+                    <a href="https://wa.me/91000000000"
+                        class="inline-block mt-6 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg shadow-lg transition">
+                        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+
+                <!-- CONTACT FORM -->
+                <div data-aos="fade-left">
+                    <form action="success.html" method="GET" id="contactForm"
+                        class="bg-white p-8 rounded-xl shadow-xl space-y-6">
+                        <input id="name" type="text" placeholder="Your Name" class="w-full p-3 rounded-lg border" />
+
+                        <input id="email" type="email" placeholder="Your Email" class="w-full p-3 rounded-lg border" />
+
+                        <input id="phone" type="tel" placeholder="Your Phone Number"
+                            class="w-full p-3 rounded-lg border" />
+
+                        <textarea id="message" rows="4" placeholder="Your Message"
+                            class="w-full p-3 rounded-lg border"></textarea>
+
+                        <button type="submit"
+                            class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-lg font-semibold transition">
+                            Send Message
+                        </button>
+
+                        <p id="errorMsg" class="text-red-500 text-sm"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- GOOGLE MAP -->
+        <section class="pb-16 max-w-7xl mx-auto px-4" data-aos="fade-up">
+            <div class="rounded-xl overflow-hidden shadow-2xl">
+                <iframe src="https://www.google.com/maps?q=Bargarh,Odisha&output=embed" width="100%" height="350"
+                    style="border: 0" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!--  FOOTER  -->
+    <footer class="bg-blue-950 text-white py-14">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div>
+                <span class="text-2xl font-bold text-orange-400">
+                    <a href="index.html"><i class="fa-solid fa-bolt"></i> Shri Ram Electrics</a>
+                </span>
+                <p class="mt-3 text-gray-300">
+                    Complete Electrical Repair & Sales Shop.
+                </p>
+            </div>
+
+            <div>
+                <span class="font-bold text-xl mb-3 block text-orange-400">Quick Links</span>
+                <ul class="space-y-2 text-gray-300">
+                    <li>
+                        <a href="index.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-angle-right"></i> Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-angle-right"></i> Repairing
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="accessories.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-angle-right"></i> Accessories
+                        </a>
+                    </li>
+                    <li>
+                        <a href="review.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-angle-right"></i> Reviews
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <span class="font-bold text-xl mb-3 block text-orange-400">Services</span>
+                <ul class="space-y-2 text-gray-300">
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-check"></i> Motor Repair
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-check"></i> Fan Repair
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-check"></i> Water Pump
+                        </a>
+                    </li>
+                    <li>
+                        <a href="repairing.html" class="hover:text-orange-400 transition">
+                            <i class="fa-solid fa-check"></i> Generator Service
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold block text-xl mb-3 text-orange-400">Contact</h4>
+                <p class="text-gray-300">
+                    <i class="fa-solid fa-location-dot"></i> Bargarh, Odisha
+                </p>
+                <p class="text-gray-300 mt-2">
+                    <i class="fa-solid fa-phone"></i> 91 00000000
+                </p>
+            </div>
+        </div>
+
+        <div class="text-center mt-10 border-t border-blue-800 pt-6 text-gray-400">
+            <a href="index.html"> © 2026 Shri Ram Electrics. </a>All Rights
+            Reserved.
+        </div>
+    </footer>
+
+    <!--  PREMIUM WHATSAPP BUTTON  -->
+    <div class="max-w-screen-2xl mx-auto relative">
+        <a href="https://wa.me/91000000000" target="_blank"
+            class="fixed bottom-4 right-4 sm:bottom-6 sm:right-10 lg:right-20 bg-green-500 hover:bg-green-600 text-white flex items-center gap-2 px-4 py-3 sm:px-5 sm:py-3 rounded-full shadow-2xl text-sm sm:text-base transition duration-300 hover:scale-105 animate-bounce z-50">
+            <i class="fa-brands fa-whatsapp text-lg sm:text-xl"></i>
+            <span class="hidden sm:inline font-semibold">Chat Now</span>
+        </a>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
