@@ -22,13 +22,14 @@
     <header>
         <!--  NAVBAR  -->
         <nav class="bg-gradient-to-r from-blue-950 to-blue-800 text-white shadow-xl sticky top-0 z-50">
-            <div class="max-w-screen-2xl mx-auto px-6  flex justify-between items-center">
+            <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 flex justify-between items-center">
 
                 <div class="flex items-center">
                     <img src="./img/logo.png" alt="Shri Ram Electrics Logo" class="w-32 md:w-36 object-contain">
                 </div>
 
-                <div class="hidden md:flex space-x-10 font-semibold text-lg lg:text-xl items-center">
+                <div
+                    class="hidden md:flex space-x-6 lg:space-x-8 font-semibold text-base lg:text-lg xl:text-xl items-center">
                     <a href="index.html" class="hover:text-orange-400  transition"><i class="fa-solid fa-house"></i>
                         Home</a>
                     <a href="repairing.html" class="hover:text-orange-400 text-orange-400  transition"><i
@@ -42,14 +43,15 @@
                         Contact</a>
                 </div>
 
-                <button id="menuBtn" class="md:hidden text-3xl">
+                <button id="menuBtn" class="md:hidden text-2xl sm:text-3xl">
                     <i class="fa-solid fa-bars"></i>
                 </button>
 
             </div>
 
             <!-- Mobile Menu -->
-            <div id="mobileMenu" class="hidden md:hidden bg-blue-900 px-4 pb-4 text-center text-lg font-medium">
+            <div id="mobileMenu"
+                class="hidden md:hidden bg-blue-900 px-4 pb-4 text-center text-base sm:text-lg font-medium">
                 <a href="index.html" class="block py-3 border-b border-blue-700 "><i class="fa-solid fa-house"></i>
                     Home</a>
                 <a href="repairing.html" class="block py-3 text-orange-400  border-b border-blue-700"><i
@@ -66,15 +68,15 @@
 
     <main>
         <!-- HERO -->
-        <section class="relative min-h-[60vh] flex items-center justify-center text-center text-white">
+        <section class="relative min-h-[50vh] sm:min-h-[60vh] flex items-center justify-center text-center text-white">
 
             <div class="absolute inset-0">
                 <img src="./img/rep-banner.jpeg" class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-black/70"></div>
             </div>
 
-            <div class="relative z-10">
-                <h1 class="text-4xl md:text-5xl font-serif font-bold">Professional Repairing Services</h1>
+            <div class="relative z-10 px-4">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-serif font-bold">Professional Repairing Services</h1>
                 <p class="mt-4 text-lg text-gray-200">Fast • Reliable • Affordable</p>
             </div>
 
@@ -87,7 +89,7 @@
                 Available Accessories
             </h2>
 
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <!-- Item 1 -->
                 <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
                     <img src="./img/1.jpg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
@@ -95,14 +97,12 @@
 
                 <!-- Item 2 -->
                 <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
-                    <img src="./img/2.jpg"
-                        class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                    <img src="./img/2.jpg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
                 </div>
 
                 <!-- Item 3 -->
                 <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
-                    <img src="./img/3.jpg"
-                        class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                    <img src="./img/3.jpg" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
                 </div>
 
                 <!-- Item 4 -->
@@ -112,20 +112,17 @@
 
                 <!-- Item 5 -->
                 <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
-                    <img src="./img/5.jfif"
-                        class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                    <img src="./img/5.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
                 </div>
 
                 <!-- Item 6 -->
                 <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
-                    <img src="./img/6.webp"
-                        class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                    <img src="./img/6.webp" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
                 </div>
 
                 <!-- Item 7 -->
                 <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
-                    <img src="./img/7.jfif"
-                        class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
+                    <img src="./img/7.jfif" class="w-full h-56 object-cover hover:scale-110 transition duration-500" />
                 </div>
 
                 <!-- Item 8 -->
@@ -140,7 +137,7 @@
 
             <h2 class="text-3xl font-bold text-center text-blue-950 mb-12">What We Repair</h2>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <div class="bg-white p-8 rounded-xl shadow-xl hover:-translate-y-3 transition" data-aos="fade-up">
                     <i class="fa-solid fa-fan text-4xl text-orange-500 mb-4"></i>
@@ -187,7 +184,7 @@
 
                 <h2 class="text-3xl font-bold mb-10">Why Choose Shri Ram Electrics?</h2>
 
-                <div class="grid md:grid-cols-3 gap-8">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
                     <div data-aos="zoom-in">
                         <i class="fa-solid fa-clock text-4xl text-orange-400 mb-4"></i>
@@ -212,10 +209,10 @@
         </section>
 
         <!-- CALL TO ACTION -->
-        <section class="py-16 text-center bg-gray-100">
+        <section class="py-16 px-4 text-center bg-gray-100">
             <h2 class="text-3xl font-bold text-blue-950 mb-6">Need Repair Service?</h2>
             <a href="https://wa.me/91000000000"
-                class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition shadow-xl">
+                class="inline-block w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition shadow-xl">
                 <i class="fa-brands fa-whatsapp"></i> Book Now on WhatsApp
             </a>
         </section>
@@ -299,24 +296,13 @@
             </a>All Rights Reserved.
         </div>
     </footer>
-
     <!--  PREMIUM WHATSAPP BUTTON  -->
-    <div class="max-w-screen-2xl mx-auto relative">
-        <a href="https://wa.me/91000000000" target="_blank" class="fixed bottom-4 right-4 sm:bottom-6 sm:right-10 lg:right-20
-       bg-green-500 hover:bg-green-600
-       text-white flex items-center gap-2
-       px-4 py-3 sm:px-5 sm:py-3
-       rounded-full shadow-2xl
-       text-sm sm:text-base
-       transition duration-300
-       hover:scale-105
-       animate-bounce z-50">
-
-            <i class="fa-brands fa-whatsapp text-lg sm:text-xl"></i>
-            <span class="hidden sm:inline font-semibold">Chat Now</span>
-        </a>
-    </div>
-
+    <a href="https://wa.me/91000000000" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"
+        style="position: fixed; bottom: 12px; right: 12px; z-index: 9999;"
+        class="bg-green-500 hover:bg-green-600 text-white flex items-center justify-center gap-2 w-11 h-11 sm:w-auto sm:h-auto sm:px-5 sm:py-3 rounded-full shadow-2xl text-sm sm:text-base transition duration-300 hover:scale-105 animate-bounce">
+        <i class="fa-brands fa-whatsapp text-lg sm:text-xl"></i>
+        <span class="hidden sm:inline font-semibold">Chat Now</span>
+    </a>
     <script src="./js/script.js"></script>
 
 </body>
